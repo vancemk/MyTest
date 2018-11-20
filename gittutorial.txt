@@ -1,0 +1,29 @@
+
+git init
+echo "hello" README
+git add README
+git commit -m "first commit"
+git remote add origin git@github.com:username/repository.git
+git push -u origin master
+
+
+# clone 以及后续操作
+git clone
+git add file
+git commit -m "commmit message"
+git push -u origin master
+
+
+远程同步到本地
+
+git branch -al
+git pull origin master
+
+删除文件
+git rm
+git commit -m "del ..."
+git push -u origin master
+
+
+释义：
+git push 如果当前分支与多个主机存在追踪关系，那么这个时候-u选项会指定一个默认主机，这样后面就可以不加任何参数使用git push。
